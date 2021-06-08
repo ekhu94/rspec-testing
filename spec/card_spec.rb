@@ -15,3 +15,4 @@ RSpec.describe Card do
     expect(card.suit).to eq('Hearts')
   end
 end
+
