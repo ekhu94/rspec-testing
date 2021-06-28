@@ -14,7 +14,7 @@ class Actor
   end
 
   def end_act
-    'Debrah! Where are the redvines I requested in my rider?!'
+    'Deborah! Where are the redvines I requested in my rider?!'
   end
 
   def ready?

@@ -10,7 +10,6 @@ class Movie
       @actor.start_act
       @actor.fall_off_cliff
       @actor.end_act
-      @actor.oscar_winner?
     end
   end
 end
