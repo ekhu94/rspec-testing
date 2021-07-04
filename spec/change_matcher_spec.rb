@@ -1,8 +1,7 @@
-RSpec.describe 'Change Matchers' do
-  subject { [1, 2, 3, 4] }
+RSpec.describe 'change matcher' do
+  subject { ['a', 'b', 'c'] }
 
-  it 'checks for changes to subject' do
-    expect { subject.push(5) }.to change { subject.length }.by(1)
-    expect { subject.pop }.to change { subject.length }.by(-1)
+  it 'checks for changes to an object' do
+    expect { subject.push('d') }.to change { subject.length }.from(3).to(4)
   end
 end
